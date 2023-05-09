@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: Trebuchet MS;
+}
+
+p {
+  text-align: justify;
+  text-indent: 30px;
+ font-size: 18px;
+}
+
+   
+.title{
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  font-weight: bold;
+  color: ivory;
+  text-shadow: black;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  color: ivory;
+  text-shadow: black;
+  text-emphasis-color: black;
+  text-align: center;
+}
+
+.button{
+  font-size: 18px;
+  color: rgb(37, 9, 140);
+  text-align: center;
+}
+header {
+  background-color: rgb( 22, 24, 27);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.bug {
+  margin:40;
+  font-size: 18px;
+}
+
+.center-image{
+  display:block;
+  margin:auto;
+}
+
+#hero {
+  background-image: url('imagens/8b5421353a9fc9f9905d17ea548b-1458897.jpg!d');
+  background-size:cover;
+  background-position: center;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  color:azure;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 140%
+}
+
+
+
+ footer{
+  background-color: rgb( 22, 24, 27);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container{
+display: flex;
+align-items: center;
+
+
+}
+ .linkedinlogo{
+    max-width:40px;
+    max-height:40px;
+    width: 50px;
+    height: 50px;
+    size: 50px;
+    justify-content:right;
+    align-items: right;
+}
+
+.linkedinlogo:hover{
+  background-color:white ;
+}
+
+.linkedinlogo:active {
+  opacity: 0.5;
+  }
+
+.gitlogo{
+  max-width:40px;
+  max-height:40px;
+  width: 50px;
+  height: 50px;
+  size: 50px;
+}
+
+.gitlogo:hover{
+  background-color:white ;
+}
+
+.gitlogo:active {
+opacity: 0.5;
+}
+
+.slider {
+  margin:0; padding:0; 
+  display: flex;
+  height: 293px;
+  width:600px;
+  margin: auto;
+  margin-top:20px;
+  position: relative;
+  justify-content: center;;
+}
+
+.slider li{
+  list-style:none;
+  position: absolute;
+}
+
+.slider img{
+  margin: auto;
+  height: 100%;
+  width:100%;
+  vertical-align: top;
+}
+
+.slider input{
+  display:none;
+}
+
+.slider label{
+  background-color: #1d1010;
+  bottom:10px;
+  cursor:pointer;
+  display:block;
+  height:10px;
+  position:relative;
+  width:10px;
+  z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+  left: 12px;
+}
+
+.slider li:nth-child(2) label {
+  left: 40px;
+}
+
+.slider li:nth-child(3) label {
+  left: 70px; 
+}
+
+.slider img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+.paragrafo {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgb(202, 227, 251);
+  box-shadow:10px 15px 15px -3px rgba(0,0,0,0.3);
+
+}
+
+.pontos{
+  color:#fff
+}
